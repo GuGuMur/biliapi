@@ -17,8 +17,6 @@ app.listen(3000, () => {
     console.log(`Deploy successfully!`);
 });
 
-module.exports = app;
-
 import axios from "axios";
 import dayjs from "dayjs";
 import he from "he";
