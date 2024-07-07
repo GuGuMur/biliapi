@@ -14,8 +14,10 @@ app.get("/bili/:Id", async (req, res) => {
     return res.json(await getArtistWorks(artistItem, 1, "main"))
 })
 app.listen(3000, () => {
-    console.log(`Example app listening on port 3000`);
+    console.log(`Deploy successfully!`);
 });
+
+module.exports = app;
 
 import axios from "axios";
 import dayjs from "dayjs";
